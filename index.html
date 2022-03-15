@@ -14,7 +14,7 @@
 
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css">
 
-  <title>Starproperty</title>
+  <title>Starproperti</title>
 
   <style>
     body {
@@ -46,7 +46,7 @@
   
   #product .card {
       border-radius: 10px;
-  
+      min-height: 750px;
   }
   
   #product .card .img img {
@@ -81,6 +81,10 @@
       width: 100%;
       height: auto;
   }
+
+  #product .card .card-text {
+    font-size: 12px;
+}
   
   #product .subtitle {
       font-style: normal;
@@ -249,9 +253,18 @@
   
   #contact h1 {
       font-size: 35px;
-      font-weight: 600;
-      color: #27AA55;
+      font-weight: 700;
+      color: #21442E;
       letter-spacing: 0.1em;
+      text-transform: uppercase;
+  }
+
+  #contact h3 {
+    font-size: 20px;
+    font-weight: 600;
+    color: #21442E;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
   }
   
   #contact .input-contact {
@@ -270,6 +283,7 @@
       width: 200px;
       height: 50px;
       color: #fff;
+      font-weight: 600;
       background: #27AA55;
       border-radius: 10px;
   }
@@ -323,6 +337,14 @@
   
           height: 300px;
       }
+
+      #product{
+        margin: 20px;
+      }
+
+      #product .card{
+        min-height: 700px !important;
+      }
   }
   
   @media only screen and (max-width: 600px) {
@@ -330,6 +352,10 @@
           /* width: 250px !important; */
   
           height: auto;
+      }
+
+      #product .card{
+        min-height: 400px;
       }
   }
   </style>
@@ -348,16 +374,16 @@
     <div class="row">
 
       <!-- card produk -->
-      <div class="col-lg-4 pt-3">
+      <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12 pt-3">
         <div class="card">
           <div class="col-lg-12 container-img carousel slide" data-bs-ride="carousel">
             <div class="img mb-3 ">
-              <img id="featured" src="assets/images/product1.png" alt="">
+              <img id="featured" src="assets/images/produk1.png" alt="">
 
             </div>
 
             <div class="title">
-              <p>Villa Exclusive 1 Lantai</p>
+              <p>Exclusive Hook</p>
             </div>
             <div class="row p-1 m-1">
               <div class="col-3">
@@ -386,8 +412,7 @@
           <!-- <img src="assets/images/product1.png" class="card-img-top" alt="..."> -->
           <div class="card-body">
 
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
-              content.</p>
+            <p class="card-text">Malang, yang bersebelahan dengan kampus UB, Polinema, UIN, Unisma dan UMM</p>
             <hr>
             <div class="row">
               <div class="col-6 subtitle">
@@ -425,7 +450,7 @@
       </div>
 
       <!-- card produk -->
-      <div class="col-lg-4 pt-3">
+      <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12 pt-3">
         <div class="card">
           <div class="col-lg-12 container-img carousel slide" data-bs-ride="carousel">
             <div class="img mb-3 ">
@@ -434,7 +459,7 @@
             </div>
 
             <div class="title">
-              <p>Villa Exclusive 1 Lantai</p>
+              <p>Smart Investment Villa</p>
             </div>
             <div class="row p-1 m-1">
               <div class="col-3">
@@ -463,8 +488,7 @@
           <!-- <img src="assets/images/product1.png" class="card-img-top" alt="..."> -->
           <div class="card-body">
 
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
-              content.</p>
+            <p class="card-text">Hunian Villa modern dengan View Alam Gunung Arjuna. Terletak di Kawasan lingkungan yang dingin, di daerah Batu.</p>
             <hr>
             <div class="row">
               <div class="col-6 subtitle">
@@ -502,16 +526,16 @@
       </div>
 
       <!-- card produk -->
-      <div class="col-lg-4 pt-3">
+      <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12 pt-3">
         <div class="card">
           <div class="col-lg-12 container-img carousel slide" data-bs-ride="carousel">
             <div class="img mb-3 ">
-              <img id="featured" src="assets/images/product1.png" alt="">
+              <img id="featured" src="assets/images/produk3.png" alt="">
 
             </div>
 
             <div class="title">
-              <p>Villa Exclusive 1 Lantai</p>
+              <p>Villa Exclusive</p>
             </div>
             <div class="row p-1 m-1">
               <div class="col-3">
@@ -540,8 +564,7 @@
           <!-- <img src="assets/images/product1.png" class="card-img-top" alt="..."> -->
           <div class="card-body">
 
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
-              content.</p>
+            <p class="card-text">Hunian dengan nuansa Villa modern. Kawasan lingkungan yang dingin, terletak di daerah Batu, yang memberikan kenyamanan yang sempurna untuk Anda.</p>
             <hr>
             <div class="row">
               <div class="col-6 subtitle">
@@ -579,11 +602,11 @@
       </div>
 
       <!-- card produk -->
-      <div class="col-lg-4 pt-3">
+      <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12 pt-3">
         <div class="card">
           <div class="col-lg-12 container-img carousel slide" data-bs-ride="carousel">
             <div class="img mb-3 ">
-              <img id="featured" src="assets/images/product1.png" alt="">
+              <img id="featured" src="assets/images/produk4.png" alt="">
 
             </div>
 
@@ -617,8 +640,7 @@
           <!-- <img src="assets/images/product1.png" class="card-img-top" alt="..."> -->
           <div class="card-body">
 
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
-              content.</p>
+            <p class="card-text">Hunian 1 Lantai, ini merupakan hunian yang tepat bagi Anda untuk menikamti masa pensiun. Terletak dikawasan Dingin Kota Batu, membuat anda serasa staycation tiap hari.</p>
             <hr>
             <div class="row">
               <div class="col-6 subtitle">
@@ -656,16 +678,16 @@
       </div>
 
       <!-- card produk -->
-      <div class="col-lg-4 pt-3">
+      <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12 pt-3">
         <div class="card">
           <div class="col-lg-12 container-img carousel slide" data-bs-ride="carousel">
             <div class="img mb-3 ">
-              <img id="featured" src="assets/images/product1.png" alt="">
+              <img id="featured" src="assets/images/produk5.png" alt="">
 
             </div>
 
             <div class="title">
-              <p>Villa Exclusive 1 Lantai</p>
+              <p>Best Seller</p>
             </div>
             <div class="row p-1 m-1">
               <div class="col-3">
@@ -694,8 +716,7 @@
           <!-- <img src="assets/images/product1.png" class="card-img-top" alt="..."> -->
           <div class="card-body">
 
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
-              content.</p>
+            <p class="card-text">Type Hunian yang terjual Lebih dari 40 unit dalam waktu 6 bulan. Dengan Fasilitas Sunnah terlengkap. Masjid, Kolam renang, Lap Berkuda, Panahan, Rumah Tahfiz dan Taman Aktifitas. Terletak di Kota Malang, dekat kampus Ternama.</p>
             <hr>
             <div class="row">
               <div class="col-6 subtitle">
@@ -733,16 +754,16 @@
       </div>
 
       <!-- card produk -->
-      <div class="col-lg-4 pt-3">
+      <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12 pt-3">
         <div class="card">
           <div class="col-lg-12 container-img carousel slide" data-bs-ride="carousel">
             <div class="img mb-3 ">
-              <img id="featured" src="assets/images/product1.png" alt="">
+              <img id="featured" src="assets/images/produk6.png" alt="">
 
             </div>
 
             <div class="title">
-              <p>Villa Exclusive 1 Lantai</p>
+              <p>Rukost Premium</p>
             </div>
             <div class="row p-1 m-1">
               <div class="col-3">
@@ -771,8 +792,7 @@
           <!-- <img src="assets/images/product1.png" class="card-img-top" alt="..."> -->
           <div class="card-body">
 
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
-              content.</p>
+            <p class="card-text">Rukost premium di daerah bisnis soekarno hatta malang. Yang lokasinya sangat dekat dengan kampus Brawijaya dan polinema Malang.</p>
             <hr>
             <div class="row">
               <div class="col-6 subtitle">
@@ -932,33 +952,32 @@
       <div class="col-lg-3"></div>
       <div class="col-lg-3 text-center">
         <img src="assets/icons/1.png" alt="" srcset="">
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam</p>
+        <p style="font-size: 12px;">Star Properti International merupakan perusahaan yang bergerak di bidang properti, berupa jasa dan konsultasi properti dengan database rumah impian dan tanah kavling yang lengkap, valid, dan terpercaya.</p>
       </div>
       <div class="col-lg-3 text-center">
         <img src="assets/icons/2.png" alt="" srcset="">
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam</p>
+        <p style="font-size: 12px;">Star Properti International terdiri dari berbagai tim berpengalaman yang professional, amanah, dan terpercaya dengan pelayanan yang ramah.</p>
       </div>
       <div class="col-lg-3"></div>
     </div>
   </section>
 
   <section id="contact">
+    <h3>KIRIM PESAN KEPADA KAMI</h3>
     <h1>Kami Siap Membantu Anda</h1>
-    <p>Our believe has request not how comfort evident. Up delight cousins we feeling minutes. Genius has looked end
-      piqued spring. Down has rose feel find man.</p>
 
     <form action="" class="text-center">
       <div class="row">
         <div class="col-md-6 mt-3">
-          <input type="text" placeholder="Your Name" name="name" class="form-control">
+          <input type="text" placeholder="Nama Anda" name="name" class="form-control">
         </div>
         <div class="col-md-6 mt-3">
-          <input type="email" placeholder="Your Email" name="email" class="form-control">
+          <input type="email" placeholder="Email Anda" name="email" class="form-control">
         </div>
       </div>
       <div class="row mt-3">
         <div class="col-md-12">
-          <textarea name="" class="form-control" id="" name="question" placeholder="Question" cols="30"
+          <textarea name="" class="form-control" id="" name="question" placeholder="Pertanyaan" cols="30"
             rows="4"></textarea>
         </div>
       </div>
@@ -972,20 +991,18 @@
     <div class="row">
       <div class="col-md-4 text-center">
         <i class="fa-solid fa-location-dot"></i>
-        <p>Our believe has request not how comfort evident. Up delight cousins we feeling minutes. Genius has looked end
-          piqued spring. Down has rose feel find man.</p>
+        <p>Jl. Balai Desa Kepuharjo No. 34, Kedawung, Ngijo
+          Kec. Karangploso, Malang 65152</p>
       </div>
 
       <div class="col-md-4 text-center">
         <i class="fa-solid fa-phone"></i>
-        <p>Our believe has request not how comfort evident. Up delight cousins we feeling minutes. Genius has looked end
-          piqued spring. Down has rose feel find man.</p>
+        <p>0811 290 3333</p>
       </div>
 
       <div class="col-md-4 text-center">
         <i class="fa-solid fa-envelope"></i>
-        <p>Our believe has request not how comfort evident. Up delight cousins we feeling minutes. Genius has looked end
-          piqued spring. Down has rose feel find man.</p>
+        <p>starproperti@gmail.com</p>
       </div>
     </div>
 
